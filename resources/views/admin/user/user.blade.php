@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="page-title RTL">
-                        <button type="button" id="addUser" class="btn btn-success waves-effect waves-light">اضافه موضف
+                        <button type="button" id="addUser" class="btn btn-success waves-effect waves-light">اضافه موظف
                             جديد
                         </button>
                     </div>
@@ -46,7 +46,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="card-box ">
-                    <h1 class="page-title RTL">اضافه تفاصيل للموضف</h1>
+                    <h1 class="page-title RTL">اضافه تفاصيل للموظف</h1>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
                             @foreach($employs as $employ)
                             <div class="col-lg-12">
                                 <div class="card card-block">
-                                    <h3 class="card-title"><label>اسم الموضف</label>  {{$employ->name}}</h3>
+                                    <h3 class="card-title"><label>اسم الموظف</label>  {{$employ->name}}</h3>
 
                                     <p class="card-text">    <label>التحصيل الدراسي</label> {{$employ->stduy}}</p><br>
                                     <label>الحاله الزوجيه</label> {{$employ->zojea}}<br>
@@ -122,7 +122,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close RTL" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">اضافه موضف</h4>
+                    <h4 class="modal-title">اضافه موظف</h4>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -289,7 +289,7 @@
                                 _token: token
                             },
                             success: function (msg) {
-                                Command: toastr["success"]("لقد قمت بضافه موضف جديد ", "تم الاضافه")
+                                Command: toastr["success"]("تمت اضافه موظف جديد ", "تم الاضافه")
 
                                 toastr.options = {
                                     "closeButton": false,

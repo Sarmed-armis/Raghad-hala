@@ -29,7 +29,7 @@
 
 
                             <li>
-                             <a href="/employ"></i> <span> الموضفين </span><i class="zmdi zmdi-account"></i></a>
+                             <a href="/employ"></i> <span> الموظفين </span><i class="zmdi zmdi-account"></i></a>
                             </li>
 
                             <li>
